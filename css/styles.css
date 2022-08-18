@@ -1,16 +1,16 @@
 body {
-    background-color: rgb(155, 200, 12);
-    color: brown;
+    font-family: Roboto, sans-serif;
 }
-
 .logo-title {
-    color: black;
+    font-family: Raleway, cursive;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.nav .list-iteam {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
 }
 
-.logo-title:hover {
-    color: tomato;
-}
-
-.logo-title:focus {
-    color: aqua;
-}
