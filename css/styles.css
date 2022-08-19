@@ -35,7 +35,6 @@
     color: #2196F3;
 }
 .header .link {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -53,6 +52,11 @@
 
 .header .link-info {
     color: var(--grey-txt-cl);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .header .link-info:hover,
 .header .link-info:focus {
@@ -84,6 +88,7 @@
 
 .section-main .btn {
     font-family: inherit;
+    font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.06em;
@@ -102,7 +107,6 @@
     color: var(--main-txt-cl);
 }
 .features-title-description {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -147,7 +151,6 @@
     color: var(--main-txt-cl);
 }
 .team-list-title {
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
@@ -176,23 +179,24 @@
 .address-title {
     
     font-family: var(--main-font) ;
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--light-txt-cl);
+    font-style: normal;
 }
 
 
 .footer .link {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
+
 .footer .list-iteam {
-    list-style: none;
+    list-style: none; 
 }
 
 
@@ -237,7 +241,6 @@
     color: var(--main-txt-cl);
 }
 .section-title-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
